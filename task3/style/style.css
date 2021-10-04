@@ -1,0 +1,38 @@
+.my-div1 {
+  background-image: url("../images/images.jpg");
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
+}
+.my-div2 {
+  background-image: url("../images/images.jpg");
+  background-repeat: repeat-y;
+  background-position: right;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
+}
+.my-div3 {
+  background-image: url("../images/images.jpg");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
+}
+.my-div4 {
+  background-image: url("../images/images.jpg");
+  background-repeat: repeat;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
+}
