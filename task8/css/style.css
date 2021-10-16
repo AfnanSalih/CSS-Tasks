@@ -1,0 +1,243 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.parent {
+  background-color: burlywood;
+}
+.container {
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1000px;
+}
+.btn {
+  background-color: crimson;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li .logo {
+  float: left;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgb(58, 56, 56);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.section2 div {
+  background-color: #ffffff;
+  text-align: center;
+}
+.section2::before {
+  content: url("");
+  width: 400px;
+  height: 400px;
+}
+
+.container .col1,
+.col2 {
+  display: inline-block;
+  font-size: 21px;
+  width: 49.5%;
+  margin-left: 1px;
+  float: left;
+  padding: auto;
+}
+.container .col1 {
+  /* border: 1px solid darkorange; */
+}
+.container .col2 {
+  text-align: left;
+  /* border: 1px solid darkorange; */
+}
+.col1 img {
+  padding-top: 50px;
+  margin-left: 160px;
+}
+/* .section3 {
+  margin-top: 387px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 200px;
+  width: 1800px;
+  display: block;
+}
+.serv1,
+.serv2,
+.serv3,
+.serv4 {
+  overflow: hidden;
+  height: 75px;
+  width: 125.75px;
+  display: inline-block;
+  background-color: darkorange;
+  margin-left: 2px;
+  text-align: center;
+} */
+
+.section3 {
+  height: 150px;
+  width: 600px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 10px;
+}
+.section3 .div1 {
+  background-color: #ff00dce3;
+  height: 60px;
+  width: 120px;
+  position: absolute;
+  left: 25px;
+  top: 49px;
+  margin-top: 90px;
+}
+.section3 .div2 {
+  background-color: #191917;
+  height: 60px;
+  width: 120px;
+  position: absolute;
+  left: 170px;
+  top: 49px;
+  margin-top: 90px;
+}
+.section3 .div3 {
+  background-color: green;
+  height: 60px;
+  width: 120px;
+  position: absolute;
+  left: 315px;
+  top: 49px;
+  margin-top: 90px;
+}
+.section3 .div4 {
+  background-color: #ec33b9;
+  height: 60px;
+  width: 120px;
+  position: absolute;
+  left: 455px;
+  top: 49px;
+  margin-top: 90px;
+}
+.div1,
+.div2,
+.div3,
+.div4 p {
+  text-align: center;
+  color: pink;
+}
+h1,
+h3 {
+  text-align: center;
+}
+
+/* st section4 */
+.section4 {
+  background-color: brown;
+  margin: auto;
+  width: 500px;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 40px;
+}
+.section4 p {
+  color: cornsilk;
+  position: absolute;
+  right: 700px;
+  border-radius: 20px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+  padding-top: 22px;
+  font-size: large;
+}
+
+.section4 .sec1::after {
+  content: "";
+  background-image: url(../images/img.jpg);
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: -150px;
+  top: -4px;
+  background-size: cover;
+  border-radius: 36px;
+}
+.section4 .sec2::before {
+  content: "";
+  background-image: url(../images/img.jpg);
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: -30px;
+  top: -4px;
+  background-size: cover;
+  border-radius: 36px;
+}
+.section4 .sec3::after {
+  content: "";
+  background-image: url(../images/img.jpg);
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: -150px;
+  top: -4px;
+  background-size: cover;
+  border-radius: 36px;
+}
+.section4 .sec4::before {
+  content: "";
+  background-image: url(../images/img.jpg);
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: -30px;
+  top: -4px;
+  background-size: cover;
+  border-radius: 36px;
+}
+
+/* end section4 */
+
+/* str section1 */
+.section1 {
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.img2 {
+  float: right;
+}
+
+.section1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-read {
+  border: 2px solid red;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: red;
+}
+.btn-read:hover {
+  background-color: rgb(245, 72, 72);
+  color: #ffffff;
+  background-color: rgb(245, 72, 72);
+  border: 2px solid;
+}
+/* end section1 */
